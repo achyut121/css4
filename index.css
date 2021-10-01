@@ -1,0 +1,165 @@
+.heading {
+    font-size: xx-large;
+    text-decoration: underline;    
+    font-weight: 700;
+    border: 1px;
+    
+    width:100% ;
+    background: linear-gradient(to right, green, greenyellow,orange);
+    text-align:center;
+}
+
+.heading2 {
+    font-size: x-large;
+    text-decoration: underline red;
+    font-weight: 700;
+    border: 1px;
+    height: 40px;
+    width:100% ;
+    background: linear-gradient(to right,red, yellow,red);
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+.home {
+    text-align: center;
+    border: 3px solid blueviolet;
+    height: 70px;
+    width: 60%;
+    display: inline-block;
+    background: gold;
+    border-radius: 20px;
+    margin-left: 23%;
+}
+.son {
+    border: 3px solid red;
+    height: fit-content;
+    width: 25%;
+    background: cyan;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+    font-weight: 600;
+    
+    
+}
+.parent {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    border: 3px solid #ccc;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    background: rgba(20, 218, 126, 0.685);
+    margin: 10px;
+}
+.son2 {
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.son4 {
+    
+   clear: left;
+   float: right;
+   margin-left: 430px;
+}
+
+.top {
+    border: 3px solid red;
+    border-radius: 20px;
+    background:yellow;
+    color:blue;
+    height: fit-content;
+    width: 18%;
+    text-align: center;
+    text-decoration: blue underline;
+    display: inline-block;
+    margin: 3%;
+    font-weight: 600;
+}
+.toppers {
+    border: 3px solid green;
+    height: fit-content;
+    width: 100%;
+    background: radial-gradient(blue, blue, lightgreen);
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 100px  ;
+    grid-template-rows: 60px 100px 200px 60px ;
+    padding: 10px;
+    grid-gap: 10px;
+    width: 100%;
+
+}
+.heading3 {
+    font-size: x-large;
+    font-weight: 600;
+    color: ivory;
+    background: red;
+    text-align: center;
+    grid-column: 1/5;
+}
+.box {
+    color:ivory ;
+    
+
+}
+.box1 {
+    background:green;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+}
+.box2 {
+    background: blue;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+  
+    
+}
+.box3 {
+    background:red;
+    font-weight: 600;
+    line-height: 0px;
+    
+}
+
+.box4 {
+    line-height: 0px;
+    background: black;
+    color: ivory;
+    grid-row: 2/span 2;
+    grid-column: 4/span 1;
+    
+    
+    
+
+}
+
+.box5 {
+    
+
+    background: radial-gradient(blue,blue,aqua);
+    color: ivory;
+    
+    grid-column: 1/4;
+    
+}
+.box6 {
+    font-size: x-large;
+    font-weight: 800;
+    text-align: center;
+    background: aqua;
+    grid-column: 1/5;
+
+}
+
+
+
+
